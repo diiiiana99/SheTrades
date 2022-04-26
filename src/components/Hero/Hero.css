@@ -1,0 +1,49 @@
+.hero .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem auto;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(223, 216, 216);
+    position: fixed;
+    z-index: -1;
+}
+
+.hero .left {
+    padding: 1rem;
+}
+
+.hero h1 {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: rgb(209, 204, 204);
+}
+
+.hero .input-container {
+    padding: 4rem 0;
+}
+
+.hero .right {
+    padding: 3rem;
+}
+
+.hero .img-container {
+    width: 100%;
+    display: flex;
+}
+
+.hero .landing-page-img {
+    max-width: 80%;
+    margin: auto;
+    border-radius: 64px 4px;
+}
+
+@media screen and (max-width: 940px) {
+    .hero .container {
+        grid-template-columns: 1fr;
+        margin: 1rem 0;
+    }
+}
+
