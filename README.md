@@ -22,7 +22,7 @@ SheTrades is a trading application that is designed to educate women on how to i
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-   <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="" alt="https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/rest-api.png" width="40" height="40"/> </a> 
+   <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="" alt="https://www.snmpcenter.com/wp-content/uploads/2016/10/RESTful-API-logo-for-light-bg.png" width="40" height="40"/> </a> 
   
 #
 
