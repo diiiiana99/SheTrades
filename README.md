@@ -5,7 +5,7 @@
 
 # Demos:
 
-Full Video is at - https://mysterious-forest-31007.herokuapp.com/
+Full demo is at - https://mysterious-forest-31007.herokuapp.com/
 
 
 #
