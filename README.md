@@ -1,5 +1,5 @@
 
-# <img src='https://c.tenor.com/ty_D9U36c-gAAAAM/bitcoin-crypto.gif' width='500' mrgin-left='60px'>
+# <img src='https://cdn.dribbble.com/users/2657768/screenshots/15361373/save_money0001-0180.png?compress=1&resize=400x300' width='500' mrgin-left='60px'>
 
 E-commerce full-stack application that consists:
 * Infrastructured with 2 languages for both ends, utilizing 4 frameworks of React and CSS.
