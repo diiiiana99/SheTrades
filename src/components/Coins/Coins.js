@@ -3,7 +3,8 @@ import axios from 'axios';
 import './Coins.css';
 import SingleCoin from './SingleCoin';
 import { Fade } from 'react-reveal'
-import CoinInfo from './CoinInfo';
+import CoinDetail from './CoinDetail';
+
 
 
 
@@ -30,6 +31,7 @@ function App() {
   const filteredCoins = coins.filter(coin =>
     coin.name.toLowerCase().includes(search.toLowerCase())
   );
+
 
  
   return (
@@ -61,6 +63,7 @@ function App() {
             priceChange={coin.price_change_percentage_24h}
 
           />
+
 
         );
 

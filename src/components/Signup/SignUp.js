@@ -15,7 +15,7 @@ const Signup = () => {
                 {/* left */}
                 <Fade bottom>
                 <div className='left'>
-                    <img src='https://cryptopro.app/wp-content/uploads/2019/10/iPhone-favorites-547x1024.png' alt='' />
+                    <img src='https://assets.website-files.com/5e835a31bf6c5f8cfe701101/5ee29f5010ae00e03f3a2c40_Purple%20Hexagon.png' alt='' />
                 </div>
                 </Fade>
 

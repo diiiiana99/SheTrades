@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './SingleCoin.css';
-import axios from 'axios';
 import { Fade } from 'react-reveal'
-import {Link} from 'react-router-dom'
+import Tilt from 'react-tilt'
+
 
 const Coin = ({
   name,
@@ -17,8 +17,9 @@ const Coin = ({
 {
  
   return (
+    <Tilt>
     <div className='coin-container'>
-    <Link to='/singlecoin'>
+  
       <div className='coin-row'>
       <Fade left>
         <div className='coin'>
@@ -37,17 +38,14 @@ const Coin = ({
           ) : (
             <p className='coin-percent green'>{priceChange.toFixed(2)}%</p>
           )}
-
           <p className='coin-marketcap'>
             Mkt Cap: ${marketcap.toLocaleString()}
           </p>
         </div>
         </Fade>
       </div>
-      </Link>
-      
-
     </div>
+   </Tilt>
   );
 };
 

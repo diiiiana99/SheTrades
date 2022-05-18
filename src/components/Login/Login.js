@@ -33,7 +33,7 @@ function Login() {
           <p className='divider'><span className='or'>Or</span></p>
           <form className='login-form'>
             <label className='login-label'>E-mail</label>
-            <input className='login-input' type='email' placeholder='Enter your email' />
+            <input  type='email' placeholder='Enter your email' />
             <label className='login-label'>Password</label>
             <input type='password' placeholder='Enter your password' />
             <div className='remember'>

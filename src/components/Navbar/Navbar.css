@@ -1,11 +1,11 @@
 .header {
   width: 100%;
   height: 70px;
-  background: rgb(18, 18, 18);
   position: sticky;
   top: 0;
   left: 0;
   z-index: 10;
+
 }
 
 
@@ -16,6 +16,7 @@
   height: 100%;
   padding: 1rem;
   color: rgb(202, 198, 198);
+
 }
 .container h1{
   font-size: 1.5rem;
@@ -36,21 +37,27 @@
 .nav-menu a {
   font-size: 0.9rem;
   font-weight: 600;
-  color: rgb(156, 75, 203);
+  color: rgb(237, 230, 230);
 }
 .toggle{
   font-size:2rem;
+  overflow: hidden;
+  
+
 }
 
 .hamburger {
   display: none;
   cursor: pointer;
+  overflow: hidden;
+
 }
 
 
 @media screen and (max-width:1240px) {
   .hamburger {
       display: flex;
+      overflow: hidden;
   }
 
   .nav-menu {
@@ -58,12 +65,11 @@
       flex-direction: column;
       justify-content: start;
       top: 90px;
-      right: -100%;
+      right: -20%;
       width: 20%;
       height: 100vh;
       transition: 0.4s;
       z-index: 2;
-      background: rgb(29, 28, 28);
       border-left: 1px solid #eee;
   }
 

@@ -30,7 +30,7 @@ const Hero = () => {
                 <Fade right>
                 <div className='right'>
                     <div className='img-container'>
-                        <img className='landing-page-img'src='https://nftcalendar.io/storage/uploads/events/2022/1/HRBSdLJV87jePdawBulmU9GzlAGlczqq5wtFgYP3.gif' alt=''/>
+                        <img className='landing-page-img'src='https://dotbig.com/img/1_iphone_eng.gif' alt=''/>
                     </div>
                 </div>
                 </Fade>

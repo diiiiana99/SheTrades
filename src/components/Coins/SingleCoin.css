@@ -1,6 +1,7 @@
 .coin-container {
     display: flex;
     justify-content: center;
+
   }
   
   .coin-row {
@@ -11,6 +12,9 @@
     height: 80px;
     border-bottom: 1px solid #d7d7d7;
     width: 900px;
+    color: #e2dfdf;
+
+
   }
   .coin-row:hover{
     transform: scale(1.1);
@@ -45,6 +49,7 @@
     text-align: right;
     justify-content: space-between;
     width: 100%;
+
   }
   
   .coin-price {
@@ -69,4 +74,13 @@
   
   .green {
     color: #11d811;
+  }
+  @media screen and (max-width:768px) {
+
+    .coin-container {
+      display: flex;
+      justify-content: center;
+      width: 50px;
+
+    }
   }
